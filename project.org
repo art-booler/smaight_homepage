@@ -11,21 +11,33 @@ cp    /mnt/d/inbox/Homepage/dify.html  /mnt/d/inbox/Homepage/.html
   git config --global user.name "booyoon yeom"
 #+END_SRC
 
+#+RESULTS:
+ssh-keygen -t ed25519 -C "byy@smaight.co.kr"
+
+#+BEGIN_SRC bash
+cat ~/.ssh/id_ed25519.pub
+#+END_SRC
+
+#+RESULTS:
+
 #+BEGIN_SRC bash
 echo "Hello, Org Babel Bash!"
 
 pwd
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:art-booler/smaight_homepage.git
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin git@github.com:art-booler/smaight_homepage.git
 git push -u origin main
 
 echo "# smaight_homepage" >> README.md
 #+END_SRC
 
 #+RESULTS:
-| Hello,                | Org   | Babel | Bash!      |    |                             |
-| /mnt/d/inbox/Homepage |       |       |            |    |                             |
-| Initialized           | empty | Git   | repository | in | /mnt/d/inbox/Homepage/.git/ |
+| Hello,                | Org           | Babel    | Bash!      |              |                             |
+| /mnt/d/inbox/Homepage |               |          |            |              |                             |
+| Reinitialized         | existing      | Git      | repository | in           | /mnt/d/inbox/Homepage/.git/ |
+| [main                 | (root-commit) | e6cfb80] | first      | commit       |                             |
+| 1                     | file          | changed, | 1          | insertion(+) |                             |
+| create                | mode          | 100644   | README.md  |              |                             |
