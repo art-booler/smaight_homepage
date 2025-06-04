@@ -18,6 +18,8 @@ ssh-keygen -t ed25519 -C "byy@smaight.co.kr"
 cat ~/.ssh/id_ed25519.pub
 #+END_SRC
 
+https://art-booler.github.io/smaight_homepage/index.html
+
 #+RESULTS:
 
 #+BEGIN_SRC bash
