@@ -1,15 +1,12 @@
 * bla
 
-# cp /mnt/d/inbox/Homepage/generic.html /mnt/d/inbox/Homepage/crystal_db.html
-cp /mnt/d/inbox/Homepage/generic.html /mnt/d/inbox/Homepage/crystal_view.html
-mv  /mnt/d/inbox/Homepage/bi_solution.html  /mnt/d/inbox/Homepage/dify.html
-cp    /mnt/d/inbox/Homepage/dify.html  /mnt/d/inbox/Homepage/.html
+Window Host IIS 서버 이용
+# cp /mnt/d/project_archive/Homepage/generic.html /mnt/d/project_archive/Homepage/crystal_db.html
+/mnt/d/project_archive/250530_smaight_homepage/index.html
+mv  /mnt/d/project_archive/Homepage/bi_solution.html  /mnt/d/project_archive/Homepage/dify.html
+cp    /mnt/d/project_archive/Homepage/dify.html  /mnt/d/project_archive/Homepage/.html
 
 
-#+BEGIN_SRC bash
-  git config --global user.email "byy@smaight.co.kr"
-  git config --global user.name "booyoon yeom"
-#+END_SRC
 
 #+RESULTS:
 ssh-keygen -t ed25519 -C "byy@smaight.co.kr"
@@ -18,28 +15,10 @@ ssh-keygen -t ed25519 -C "byy@smaight.co.kr"
 cat ~/.ssh/id_ed25519.pub
 #+END_SRC
 
+성수동 사무실 내 PC
+http://192.168.0.4/home/index.html
+
+내 계정의 github page 로 도메인 포워딩 신청
 https://art-booler.github.io/smaight_homepage/index.html
 
-#+RESULTS:
 
-#+BEGIN_SRC bash
-echo "Hello, Org Babel Bash!"
-
-pwd
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git branch -M main
-# git remote add origin git@github.com:art-booler/smaight_homepage.git
-git push -u origin main
-
-echo "# smaight_homepage" >> README.md
-#+END_SRC
-
-#+RESULTS:
-| Hello,                | Org           | Babel    | Bash!      |              |                             |
-| /mnt/d/inbox/Homepage |               |          |            |              |                             |
-| Reinitialized         | existing      | Git      | repository | in           | /mnt/d/inbox/Homepage/.git/ |
-| [main                 | (root-commit) | e6cfb80] | first      | commit       |                             |
-| 1                     | file          | changed, | 1          | insertion(+) |                             |
-| create                | mode          | 100644   | README.md  |              |                             |
